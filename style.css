@@ -1,0 +1,225 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Header and landing page */
+.header-part {
+    width: 100%;
+    height: 740px;
+    background-image: url(https://mymodernmet.com/wp/wp-content/uploads/2018/02/tobias-hagg-travel-landscape-photography-thumbnail.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.col-6 h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.col-6 span {
+    color: white;
+    font-weight: semibold;
+    font-size: 60px;
+    font-family: pacifico;
+}
+
+.modal-footer button {
+    margin-right: 200px;
+}
+
+/* Packages part */
+.card img {
+    padding: 10px;
+}
+
+.card-body h6 {
+    color: red;
+}
+
+.cards-container .card:hover {
+    box-shadow: rgb(16, 15, 15) 0px 2px 4px 0px, white 0px 2px 16px 0px;
+}
+
+.more-pkg a:hover{
+    background-color: red;
+}
+
+/* Carousel Part */
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.carousel-item h1 {
+    font-weight: bold;
+    color: blue;
+    -webkit-text-stroke: 2px white;
+    font-size: 70px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+/* YT and photo part */
+.ytvideo-container .row .col-6 img {
+    width: 560px;
+    height: 315px;
+}
+
+/* North indian tour cards */
+.cards-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+}
+
+.img-con{
+    width: 250px;
+    height: 250px;
+    border: 1px solid;
+    padding: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    margin: 0px 15px;   
+}
+
+.img-con img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.img-details{
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    top: 0;
+    right: -100% ;
+    position: absolute;
+    background: rgba(70, 233, 222, 0.6);
+    border-radius: 5px;
+    backdrop-filter: blur(3px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 400ms;
+}
+
+.img-con:hover .img-details{
+    right: 0;
+
+}
+
+.img-details h3{
+    color: white;
+}
+
+.img-details p{
+    font-size: 17px;
+    font-weight: 500;
+    padding: 20px 0px;
+}
+
+.img-details p span{
+    color: blue;
+}
+
+/* Premium features */
+.premium-con>p{
+    font-family: pacifico;
+}
+
+.premium-con .card-con img{
+    width: 200px;
+    height: 200px;
+    background-color: wheat;
+}
+
+.premium-con .card-con .cborder{
+    border-radius: 50px;
+    padding: 20px 20px 10px 40px;
+    margin: 0px 15px;
+}
+
+.premium-con .card-con .cborder .card-body .card-link{
+    padding: 0px 0px 0px 45px;
+}
+
+/* Review part */
+.review-con{
+    background-color: whitesmoke;
+}
+
+.review-head{
+    text-align: center
+}
+
+.review-head p{
+    color: blue;
+    font-family: pacifico;
+    font-size: 20px;
+}
+
+.review-body .card-body .stars{
+    color: green;
+}
+
+.review-body .card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Footer */
+.footer{
+    background-color: darkblue;
+}
+
+.footer h5{
+    color: orange;
+}
+
+.footer ul{
+    float: right;
+}
+
+.footer .nav-link{
+    color: white;
+}
+
+.social-icon .fa-brands{
+    color: white;
+    font-size: 30px;
+    padding: 0px 10px;
+}
+
+.footer p{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* Media query for dropdown background */
+
+@media (max-width: 992px) {
+    #navbarNavDropdown{
+        background-color: transparent;
+    }
+    
+}
+
+@media (max-width: 991px) {
+    #navbarNavDropdown{
+        background-color: white;
+    }
+    
+}
